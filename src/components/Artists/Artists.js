@@ -11,7 +11,7 @@ const Artists = () => (
 function fetchArtists(){
 
   
-  fetch('https://api.spotify.com/v1/artists')
+  fetch('http://localhost:3000')
   .then((res) => res.json())
 }
 
